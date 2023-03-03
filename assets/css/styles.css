@@ -401,6 +401,10 @@ img {
 }
 
 /* ===== CONTACT =====*/
+.contact {
+  margin-top: 10px;
+}
+
 .contact__container {
   row-gap: 2rem;
 }
@@ -431,10 +435,14 @@ img {
   border-radius: 0.5rem;
 }
 
-.contact__button {
-  display: block;
+
+
+.contacts__button {
+  /* display: block; */
   background-color: var(--first-color);
   color: var(--white-color);
+  height: fit-content;
+  width: fit-content;
   padding: 0.75rem 2.5rem;
   margin-left: auto;
   border-radius: 0.5rem;
@@ -608,6 +616,21 @@ img {
   width: 320px;
   height: 300px;
   box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.9);
+}
+
+#whatsapp {
+  width: fit-content;
+  height: 3.5rem;
+  /* font-size: large; */
+  padding: 4px;
+  border-radius: 30%;
+  border-bottom: 1px solid black;
+  /* box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, .2); */
+  /* background-color: rgb(219, 191, 139); */
+}
+
+.bx-lg {
+  font-size: 3rem;
 }
 
 /* .project__item iframe {
