@@ -401,6 +401,10 @@ img {
 }
 
 /* ===== CONTACT =====*/
+.contact {
+  margin-top: 10px;
+}
+
 .contact__container {
   row-gap: 2rem;
 }
