@@ -380,6 +380,7 @@ img {
   padding: 2px 10px;
   width: fit-content;
   margin: auto;
+  z-index: 15;
   margin-bottom: 5px;
   border-radius: 0.2rem;
 
@@ -392,7 +393,7 @@ img {
 
 .portfolio__img:hover .portfolio__link .portfolio__link-name {
 
-  /* color: var(--dark-color); */
+  color: var(--dark-color);
 }
 
 .portfolio__link-name {
